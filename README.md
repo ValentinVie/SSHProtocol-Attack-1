@@ -1,0 +1,3 @@
+# CSE 543 - Fall 2018 - Project 2: SSH Man-in-the-Middle
+
+In this project, you will develop two different types of man-in-the-middle (MITM) attacks against the SSH protocol that you implemented in Project 1 and implement a defense to prevent the second attack. In the first attack, you will create a MITM that pretends to be the target server, but instead opens a secure connection to the client that it can use to read/modify client communications forwarded to the target server. In the second attack, you will create a MITM that forwards encrypted messages to the target server without decrypting them, enabling it to replay client-server communications without detection.
